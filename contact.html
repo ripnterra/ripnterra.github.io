@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Rip 'N' Terra Earthworks">
+    <meta name="keywords" content="RipNTerra, Excavation, Penticton, Demolitions, Road building, trucks, dozers, skid steers, excavators, pipe installation, golf, renovations">
+    <meta name="author" content="Josh Demkiw">
+    <title>Rip 'N' Terra | Contact</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding2">
+          <img class="sub_pages" src="./img/RipNTerraLogo.png">
+        </div>
+      </div>
+    </header>
+
+    <section id="links">
+      <div class="container">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+              <button onclick="dropdown_function()" class="dropbtn">Services &#9662;</button>
+              <ul class="dropdown-content" id="my_dropdown">
+                <li><a href="services.html">Services</a></li>
+                <li><a href="locations.html">Locations</a></li>
+              </ul>
+            </li>
+            <li><a href="safety.html">Safety and Certification</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li class="highlight"><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+
+    <section id="showcase_contact">
+      <div class="container">
+        <h1>Contact Us</h1>
+        <h2>250-487-9771<br/>RipNTerra@gmail.com</h2>
+        <a href="mailto:ripnterra@gmail.com"><img  src="img/e-mail.png"></img></a>
+      </div>
+    </section>
+
+    <footer>
+      <p>Rip'N'Terra Earthworks Ltd., Copyright &copy; 2018</p>
+      <p id="josh">Website by <a href=http://www.joshuademkiw.com>Joshua Demkiw</a></p>
+    </footer>
+
+
+    <script language="javascript">
+      function dropdown_function() {
+        josh=document.getElementById("my_dropdown").id;
+        document.getElementById("my_dropdown").classList.toggle('show');
+      }
+    </script>
+  </body>
+</html>
